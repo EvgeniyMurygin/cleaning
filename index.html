@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бережная уборка помещений</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top">
+          <div class="header__logo">
+            <a class="logo" href="#">
+              <img class="logo__img" src="images/logo/logo.svg" alt="logo">
+            </a>
+            <div class="header__logo-desc">
+              <h5 class="header__logo-title">Soft Clean</h5>
+              <p class="header__logo-text">Бережная уборка помещений Киев</p>
+            </div>
+          </div>
+          <div class="header__phone">
+            <a class="header__phone-number" href="tel:80508543543">8-050-8-543-543</a>
+            <p class="header__phone-text">Пн-Вс: 9:00 - 21:00</p>
+          </div>
+          <div class="header__social">
+            <p class="header__social-text">Быстрая связь с нами <br> в мессенджерах:</p>
+            <a class="header__social-link" href="#">
+              <img class="header__social-img" src="images/icon/telegram.svg" alt="telegram icon">
+            </a>
+            <a class="header__social-link" href="#">
+              <img class="header__social-img" src="images/icon/whatsapp.svg" alt="whatsapp icon">
+            </a>
+          </div>
+          <a class="header__info-btn" href="#">Заказать консультацию</a>
+        </div>
+
+        <h1 class="header__title">Бережная уборка квартир и домов в Киеве <span>по фиксированной стоимости от 80
+            ₴/м²</span> </h1>
+
+        <div class="header__content">
+          <p class="header__descr">
+            Выберите вид уборки, получите точный расчёт стоимости и скидку 10% на первый заказ
+          </p>
+          <a class="header__btn-price" href="calculation.html">Рассчитать стоимость</a>
+          <a class="header__btn-cleaning" href="thank.html">Выбрать вид уборки</a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+     <section class="calculator">
+      <div class="container">
+        <div class="benefits__items">
+          <div class="benefits__item">
+            <p class="benefits__text">Немецкое и Американское оборудование</p>
+            <img class="benefits__img" src="images/benefits/benefits-1.svg" alt="benefits icon">
+          </div>
+
+          <div class="benefits__item">
+            <p class="benefits__text">Гипоаллергенные безопасные моющие</p>
+            <img class="benefits__img" src="images/benefits/benefits-2.png" alt="benefits icon">
+          </div>
+
+          <div class="benefits__item">
+            <p class="benefits__text">Соблюдаем санитарные нормы</p>
+            <img class="benefits__img" src="images/benefits/benefits-3.svg" alt="benefits icon">
+          </div>
+
+          <div class="benefits__item">
+            <p class="benefits__text">Оплата по результату после уборки</p>
+            <img class="benefits__img" src="images/benefits/benefits-4.svg" alt="benefits icon">
+          </div>
+        </div>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Услуги</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Рассчитать стоимость</a>
+            </li>
+            <li class="menu__item menu__item--active">
+              <a class="menu__link" href="#">Почему мы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Как мы делаем уборку</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Отзывы</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Акции</a>
+            </li>
+          </ul>
+        </nav>
+
+        <h2 class="calculator__title title">Калькулятор стоимости уборки <span>с точностью до 98%</span></h2>
+        <p class="calculator__text text">Это бесплатно и ни к чему не обязывает!</p>
+
+        <div class="calculator__price">
+          <h4 class="calculator__price-title">Отлично! Ваши ответы получены, менеджер уже приступает к расчёту</h4>
+          <div class="calculator__price-inner">
+            <form class="calculator__form">
+              <p class="calculator__form-text">Где вам удобнее получить расчёт?</p>
+              <input class="calculator__input-telegram" type="text" placeholder="telegram">
+              <input class="calculator__input-whatsapp" type="text" placeholder="whatsapp">
+              <input class="calculator__input" type="text" placeholder="Введите ваш телефон">
+              <button class="calculator__btn" type="submit">Получить расчёт и бонусы</button>
+              <label class="calculator__label">
+                <input class="calculator__checkbox" type="checkbox">
+                <span class="calculator__checkbox-style"></span>
+                Нажимая на кнопку вы соглашаетесь <br> с условиями <ins>Политики конфиденциальности</ins>
+              </label>
+            </form>
+
+            <div class="calculator__bonus">
+              <h5 class="calculator__bonus-title">Ваши бонусы:</h5>
+              <ul class="calculator__bonus-list">
+                <li class="calculator__bonus-item">
+                  <p class="calculator__bonus-text">Скидка 10% на первый заказ</p>
+                </li>
+                <li class="calculator__bonus-item">
+                  <p class="calculator__bonus-text">Книга «Магическая уборка» <br>
+                    <span>(в бумажном переплёте)</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="professional">
+      <div class="container">
+        <div class="discomfort__inner">
+          <h4 class="discomfort__subtitle subtitle">А вы знали?</h4>
+          <h3 class="discomfort__title">70% клининговых компаний в Киеве, зачастую <span>подвергают своих клиентов
+              рискам и дискомфорту.</span></h3>
+          <p class="discomfort__text text">
+            И вот некоторые факты, с которыми вы можете столкнуться, обращаясь в другие компании:
+          </p>
+          <div class="discomfort__items">
+
+            <div class="discomfort__item-box">
+              <img class="discomfort__item-img" src="images/professional/discomfort-1.png" alt="discomfort images">
+              <div class="discomfort__item-desc">
+                <h5 class="discomfort__item-title">Чёрная касса</h5>
+                <p class="discomfort__item-text">
+                  Клининговые компании завлекают клиентов обманчиво низкой стоимостью. Менеджеры умалчивают стоимость доп.
+                  работ, а на объекте, когда клиенту сложно отказать, насчитывают стоимость выше заявленной.
+                </p>
+              </div>
+
+            </div>
+
+            <div class="discomfort__item-box">
+              <img class="discomfort__item-img" src="images/professional/discomfort-2.png" alt="discomfort images">
+              <div class="discomfort__item-desc">
+                <h5 class="discomfort__item-title">Порча имущества</h5>
+                <p class="discomfort__item-text">
+                  Неправильно подобранные клинерами моющие средства могут повредить поверхность мебели и бытовых приборов.
+                  Неправильная влажная уборка может испортить новый паркет или повредить проводку.
+                </p>
+              </div>
+            </div>
+
+            <div class="discomfort__item-box">
+              <img class="discomfort__item-img" src="images/professional/discomfort-3.png" alt="discomfort images">
+              <div class="discomfort__item-desc">
+                <h5 class="discomfort__item-title">Имитация деятельности</h5>
+                <p class="discomfort__item-text">
+                  Клинеры часто выполняют свою работу недобросовестно. Не убирают труднодоступные места и экономят моющее
+                  средство. В результате Вы получаете некачественную уборку и испорченное настроение.
+                </p>
+              </div>
+            </div>
+
+            <div class="discomfort__item-staff">
+              <img class="discomfort__item-img" src="images/professional/discomfort-4.png" alt="discomfort images">
+              <div class="discomfort__desc">
+                <h5 class="discomfort__desc-title">Безответственность персонала</h5>
+                <p class="discomfort__desc-text">
+                  Клинеры приезжают раньше/позже назначенного времени, что доставляет дискомфорт хозяину. Не соблюдают
+                  инструктаж владельца квартиры и нарушают бытовой порядок.
+                </p>
+              </div>
+            </div>
+
+            <div class="discomfort__attentive">
+              <h5 class="discomfort__attentive-title">Друзья, Будьте внимательны!</h5>
+              <p class="discomfort__attentive-text">
+                При выборе клинговой компании и заказе уборки, внимательно читайте договор на оказание услуг
+              </p>
+              <a class="discomfort__attentive-link" href="#">Посмотреть договор</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="professionalism__inner">
+          <h2 class="professionalism__title title"><span>Наша работа построена</span> <br> на профессионализме и
+            честности</h2>
+          <p class="professionalism__text text">Обращаясь за помощью к нам, вы можете быть спокойны за качество и ваш
+            комфорт</p>
+          <div class="professionalism__items">
+
+            <div class="professionalism__item">
+              <img class="professionalism__item-img" src="images/professional/professionalism-1.png" alt="professionalism images">
+              <div class="professionalism__item-box">
+                <h5 class="professionalism__item-title">Честное сотрудничество</h5>
+                <p class="professionalism__item-text">
+                  Заранее рассчитаем стоимость услуг, и закрепляем наше сотрудничество договором. Оплата исключительно
+                  по факту выполнения. Вы проверяете результат и платите тогда, когда он вас удовлетворяет.
+                </p>
+              </div>
+
+            </div>
+
+            <div class="professionalism__item">
+              <img class="professionalism__item-img" src="images/professional/professionalism-2.png" alt="professionalism images">
+              <div class="professionalism__item-box">
+                <h5 class="professionalism__item-title">Бережные моющие</h5>
+                <p class="professionalism__item-text">
+                  Внимательно подходим к выбору моющих средств. Знаем какие средства использовать в конкретных случаях,
+                  чтобы не повредить мебель и сохранить прежний блеск поверхностей.
+                </p>
+              </div>
+
+            </div>
+
+            <div class="professionalism__item">
+              <div class="professionalism__item-box">
+                <img class="professionalism__item-img professionalism__item-img--shield" src="images/professional/professionalism-3.png" alt="professionalism images">
+                <h5 class="professionalism__item-title">Гарантия качества</h5>
+                <p class="professionalism__item-text">
+                  На объектах работают от 2 и более опытных клинеров. Комплексная уборка делается в соответствии с
+                  нормами качества. Блеск от потолка до пола!
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <form class="professional__form">
+          <p class="professional__form-text">Оставьте заявку <span>на консультацию и расчёт стоимости БЕСПЛАТНО</span>
+          </p>
+          <input class="professional__input" type="text" placeholder="Введите ваш телефон">
+          <button class="professional__btn" type="submit">Жду звонка</button>
+          <label class="professional__label">
+            <input class="professional__checkbox" type="checkbox">
+            <span class="professional__checkbox-style"></span>
+            Нажимая на кнопку вы соглашаетесь с условиями <ins>Политики конфиденциальности</ins>
+          </label>
+        </form>
+
+      </div>
+    </section>
+
+    <section class="cleaning">
+      <div class="container">
+        <h2 class="cleaning__title title">6 видов уборки <span>под любую Вашу задачу</span></h2>
+        <p class="cleaning__text text">Наши услуги подойдут для семейных пар с детьми, владельцев животных, аллергиков,
+          арендодателей</p>
+
+        <div class="cleaning__items">
+
+          <div class="cleaning__item">
+            <img class="cleaning__item-img" src="images/cleaning/cleaning-1.jpg" alt="cleaning images">
+            <h5 class="cleaning__item-title">Гинеральная уборка</h5>
+            <p class="cleaning__item-text">Комплексная уборка с удалением пыли, жира и грязи</p>
+            <p class="cleaning__item-time">Время работы:</p>
+            <p class="cleaning__item-hours">5-7 часов</p>
+            <p class="cleaning__item-price">от 150 ₴/м²</p>
+            <a class="cleaning__item-calculate-link" href="contact.html">Рассчитать стоимость</a>
+            <a class="cleaning__item-link" href="#">Подробнее</a>
+          </div>
+
+          <div class="cleaning__item">
+            <img class="cleaning__item-img" src="images/cleaning/cleaning-2.jpg" alt="cleaning images">
+            <h5 class="cleaning__item-title">Уборка после ремонта</h5>
+            <p class="cleaning__item-text">Подготовим ваше помещение к комфортному проживанию</p>
+            <p class="cleaning__item-time">Время работы:</p>
+            <p class="cleaning__item-hours">5-7 часов</p>
+            <p class="cleaning__item-price">от 150 ₴/м²</p>
+            <a class="cleaning__item-calculate-link" href="contact.html">Рассчитать стоимость</a>
+            <a class="cleaning__item-link" href="#">Подробнее</a>
+          </div>
+
+          <div class="cleaning__item">
+            <img class="cleaning__item-img" src="images/cleaning/cleaning-3.jpg" alt="cleaning images">
+            <h5 class="cleaning__item-title">Поддерживающая уборка</h5>
+            <p class="cleaning__item-text">Уборка, для поддержания чистоты в квартире</p>
+            <p class="cleaning__item-time">Время работы:</p>
+            <p class="cleaning__item-hours">2-4 часов</p>
+            <p class="cleaning__item-price">от 80 ₴/м²</p>
+            <a class="cleaning__item-calculate-link" href="contact.html">Рассчитать стоимость</a>
+            <a class="cleaning__item-link" href="#">Подробнее</a>
+          </div>
+
+          <div class="cleaning__item">
+            <img class="cleaning__item-img" src="images/cleaning/cleaning-4.jpg" alt="cleaning images">
+            <h5 class="cleaning__item-title">Мойка окон и понорам</h5>
+            <p class="cleaning__item-text">За чистыми окнами — грязь не живёт!</p>
+            <p class="cleaning__item-time">Время работы:</p>
+            <p class="cleaning__item-hours">2-4 часов</p>
+            <p class="cleaning__item-price">от 500 ₴/м²</p>
+            <a class="cleaning__item-calculate-link" href="contact.html">Рассчитать стоимость</a>
+            <a class="cleaning__item-link" href="#">Подробнее</a>
+          </div>
+
+          <div class="cleaning__item">
+            <img class="cleaning__item-img" src="images/cleaning/cleaning-5.jpg" alt="cleaning images">
+            <h5 class="cleaning__item-title">Защитное покрытие</h5>
+            <p class="cleaning__item-text">Глубокая очистка и нанесение защитного слоя полироли</p>
+            <p class="cleaning__item-time">Время работы:</p>
+            <p class="cleaning__item-hours">8-12 часов</p>
+            <p class="cleaning__item-price">от 100 ₴/м²</p>
+            <a class="cleaning__item-calculate-link" href="contact.html">Рассчитать стоимость</a>
+            <a class="cleaning__item-link" href="#">Подробнее</a>
+          </div>
+
+          <div class="cleaning__item">
+            <img class="cleaning__item-img" src="images/cleaning/cleaning-6.jpg" alt="cleaning images">
+            <h5 class="cleaning__item-title">Экспресс уборка</h5>
+            <p class="cleaning__item-text">Срочная уборка с выездом в течении часа</p>
+            <p class="cleaning__item-time">Время работы:</p>
+            <p class="cleaning__item-hours">до 3 часов</p>
+            <p class="cleaning__item-price">от 130 ₴/м²</p>
+            <a class="cleaning__item-calculate-link" href="contact.html">Рассчитать стоимость</a>
+            <a class="cleaning__item-link" href="#">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <div class="additional__services">
+          <h4 class="services__subtitle subtitle">Не нашли нужный вариант?</h4>
+          <h2 class="services__title title">Посмотрите дополнительные услуги</h2>
+          <p class="services__text text">Устраним любой каприз в уборке</p>
+  
+          <div class="services__items">
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-1.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Мойка холодильника</h6>
+                <p class="services__item-price">600 ₴</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-2.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Мойка микроволновки</h6>
+                <p class="services__item-price">400 ₴</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-3.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Мойка варочной плиты</h6>
+                <p class="services__item-price">400 ₴</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-4.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Мойка духовки</h6>
+                <p class="services__item-price">500 ₴</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-5.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Мойка вытяжки</h6>
+                <p class="services__item-price">500 ₴</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-6.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Убраться на балконе</h6>
+                <p class="services__item-price">от 1000 ₴</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-7.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Мойка потолков</h6>
+                <p class="services__item-price">от 35 ₴/м²</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-8.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Мойка стен</h6>
+                <p class="services__item-price">50 ₴/м²</p>
+              </div>
+            </div>
+  
+            <div class="services__item">
+              <img class="services__item-img" src="images/services/services-9.jpg" alt="services images">
+              <div class="services__desc">
+                <h6 class="services__item-title">Поменяем постельное</h6>
+                <p class="services__item-price">200 ₴</p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="services__present">
+          <h4 class="services__present-title">Закажите 3 дополнительные услуги <br> <span>и получите четвёртую в
+              подарок</span></h4>
+          <a class="services__present-link" href="#">Заказать уборку</a>
+        </div>
+
+        <div class="services__price">
+          <h4 class="services__price-title">Хотите приценится? <br> Получите актуальный прайс-лист <br> <span>услуг всего в 1 клик</span></h4>
+          <form class="services__form">
+            <p class="services__form-text">— Где вам удобнее получить?</p>
+            <input class="services__input-telegram" type="text" placeholder="telegram">
+            <input class="services__input-whatsapp" type="text" placeholder="whatsapp">
+            <input class="services__input" type="text" placeholder="Введите ваш телефон">
+            <button class="services__btn" type="submit">Получить прайс</button>
+            <label class="services__label">
+              <input class="calculator__checkbox" type="checkbox">
+              <span class="calculator__checkbox-style"></span>
+              Нажимая на кнопку вы соглашаетесь <br> с условиями <ins>Политики конфиденциальности</ins>
+            </label>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="watch-cleaning">
+      <div class="container">
+        <h2 class="watch-cleaning__title title">Посмотрите наглядно как мы делаем уборку</h2>
+        <p class="watch-cleaning__text text">Так выглядит уборка в глазах наших клинеров</p>
+
+        <div class="watch-cleaning__buttons">
+          <button class="watch-cleaning__btn" data-filter=".bedroom">Cпальная комната</button>
+          <button class="watch-cleaning__btn" data-filter=".kitchen">Кухня</button>
+          <button class="watch-cleaning__btn" data-filter=".bathroom">Ванная</button>
+          <button class="watch-cleaning__btn" data-filter=".hallway">Прихожая</button>
+        </div>
+
+        <div class="watch-cleaning__inner">
+          <div class="watch-cleaning__items mix bedroom">
+            <div class="watch-cleaning__item">
+              <p class="watch-cleaning__item-text">Отмоем осветительные приборы</p>
+              <p class="watch-cleaning__item-text">Помоем окна</p>
+              <p class="watch-cleaning__item-text">Аккуратно сложим вещи</p>
+              <p class="watch-cleaning__item-text">Заправим кровать</p>
+              <p class="watch-cleaning__item-text">Обеспылим предметы интерьера</p>
+              <p class="watch-cleaning__item-text">Помоем пол</p>
+              <p class="watch-cleaning__item-text">Пропылесосим ковёр</p>
+              <p class="watch-cleaning__item-text">Обеспылим все доступные поверхности</p>
+            </div>
+            <img class="watch-cleaning__img" src="images/watch-cleaning/bedroom.jpg" alt="images" >
+          </div>
+
+          <div class="watch-cleaning__items mix kitchen">
+            <div class="watch-cleaning__item">
+              <p class="watch-cleaning__item-text">Обеспылим электро приборы</p>
+              <p class="watch-cleaning__item-text">Помоем кафель</p>
+              <p class="watch-cleaning__item-text">Аккуратно сложим вещи</p>
+              <p class="watch-cleaning__item-text">Расставим посуду</p>
+              <p class="watch-cleaning__item-text">Обеспылим предметы интерьера</p>
+              <p class="watch-cleaning__item-text">Помоем пол</p>
+              <p class="watch-cleaning__item-text">Помоем кухонную мебель</p>
+              <p class="watch-cleaning__item-text">Обеспылим все доступные поверхности</p>
+            </div>
+            <img class="watch-cleaning__img" src="images/watch-cleaning/bedroom-1.jpg" alt="images" >
+          </div>
+
+          <div class="watch-cleaning__items mix bathroom">
+            <div class="watch-cleaning__item">
+              <p class="watch-cleaning__item-text">Отмоем осветительные приборы</p>
+              <p class="watch-cleaning__item-text">Помоем зеркало</p>
+              <p class="watch-cleaning__item-text">Аккуратно сложим вещи</p>
+              <p class="watch-cleaning__item-text">Помоем умывальник</p>
+              <p class="watch-cleaning__item-text">Обеспылим предметы интерьера</p>
+              <p class="watch-cleaning__item-text">Помоем кафель</p>
+              <p class="watch-cleaning__item-text">Помоем мебель</p>
+              <p class="watch-cleaning__item-text">Обеспылим все доступные поверхности</p>
+            </div>
+            <img class="watch-cleaning__img" src="images/watch-cleaning/bedroom-2.jpg" alt="images" >
+          </div>
+
+          <div class="watch-cleaning__items mix hallway">
+            <div class="watch-cleaning__item">
+              <p class="watch-cleaning__item-text">Отмоем осветительные приборы</p>
+              <p class="watch-cleaning__item-text">Расставим предметы интерьера</p>
+              <p class="watch-cleaning__item-text">Аккуратно сложим вещи</p>
+              <p class="watch-cleaning__item-text">Отпалируем мебель</p>
+              <p class="watch-cleaning__item-text">Обеспылим предметы интерьера</p>
+              <p class="watch-cleaning__item-text">Помоем стены</p>
+              <p class="watch-cleaning__item-text">Начистим паркет</p>
+              <p class="watch-cleaning__item-text">Обеспылим все доступные поверхности</p>
+            </div>
+            <img class="watch-cleaning__img" src="images/watch-cleaning/bedroom-3.jpg" alt="images" >
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="difficulties">
+      <div class="container">
+        <h2 class="difficulties__title title">Исполним уборку любой сложности</h2>
+        <p class="difficulties__text text">Посмотрите как преображается квартира, <br> даже в самых сложных ситуациях</p>
+
+        <div class="difficulties-slider">
+
+          <div class="difficulties-slider__item">
+            <div class="difficulties-slider__box">
+              <img class="difficulties-slider__img" src="images/difficulties/difficulties.jpg" alt="images">
+              <div class="difficulties-slider__box-content">
+                <h5 class="difficulties-slider__title">Объект: однокомнатная квартира</h5>
+                <ul class="difficulties-slider__box-list">
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Пакет:</h5>
+                    <p class="difficulties-slider__box-text">Генеральная уборка</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Площадь:</h5>
+                    <p class="difficulties-slider__box-text">32 м2</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Сложные загрязнения:</h5>
+                    <p class="difficulties-slider__box-text">ржавчина, сильный <br> налёт на ванне</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Время работы:</h5>
+                    <p class="difficulties-slider__box-text">4 часа</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Бригада:</h5>
+                    <p class="difficulties-slider__box-text">1 человека</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title"></h5>
+                    <p class="difficulties-slider__box-text"></p>
+                  </li>
+                </ul>
+                <p class="difficulties-slider__text">Стоимость: 3 456 ₴</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="difficulties-slider__item">
+            <div class="difficulties-slider__box">
+              <img class="difficulties-slider__img" src="images/difficulties/difficulties.jpg" alt="images">
+              <div class="difficulties-slider__box-content">
+                <h5 class="difficulties-slider__title">Объект: однокомнатная квартира</h5>
+                <ul class="difficulties-slider__box-list">
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Пакет:</h5>
+                    <p class="difficulties-slider__box-text">Генеральная уборка</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Площадь:</h5>
+                    <p class="difficulties-slider__box-text">32 м2</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Сложные загрязнения:</h5>
+                    <p class="difficulties-slider__box-text">ржавчина, сильный <br> налёт на ванне</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Время работы:</h5>
+                    <p class="difficulties-slider__box-text">4 часа</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Бригада:</h5>
+                    <p class="difficulties-slider__box-text">1 человека</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title"></h5>
+                    <p class="difficulties-slider__box-text"></p>
+                  </li>
+                </ul>
+                <p class="difficulties-slider__text">Стоимость: 3 456 ₴</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="difficulties-slider__item">
+            <div class="difficulties-slider__box">
+              <img class="difficulties-slider__img" src="images/difficulties/difficulties.jpg" alt="images">
+              <div class="difficulties-slider__box-content">
+                <h5 class="difficulties-slider__title">Объект: однокомнатная квартира</h5>
+                <ul class="difficulties-slider__box-list">
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Пакет:</h5>
+                    <p class="difficulties-slider__box-text">Генеральная уборка</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Площадь:</h5>
+                    <p class="difficulties-slider__box-text">32 м2</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Сложные загрязнения:</h5>
+                    <p class="difficulties-slider__box-text">ржавчина, сильный <br> налёт на ванне</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Время работы:</h5>
+                    <p class="difficulties-slider__box-text">4 часа</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Бригада:</h5>
+                    <p class="difficulties-slider__box-text">1 человека</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title"></h5>
+                    <p class="difficulties-slider__box-text"></p>
+                  </li>
+                </ul>
+                <p class="difficulties-slider__text">Стоимость: 3 456 ₴</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="difficulties-slider__item">
+            <div class="difficulties-slider__box">
+              <img class="difficulties-slider__img" src="images/difficulties/difficulties.jpg" alt="images">
+              <div class="difficulties-slider__box-content">
+                <h5 class="difficulties-slider__title">Объект: однокомнатная квартира</h5>
+                <ul class="difficulties-slider__box-list">
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Пакет:</h5>
+                    <p class="difficulties-slider__box-text">Генеральная уборка</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Площадь:</h5>
+                    <p class="difficulties-slider__box-text">32 м2</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Сложные загрязнения:</h5>
+                    <p class="difficulties-slider__box-text">ржавчина, сильный <br> налёт на ванне</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Время работы:</h5>
+                    <p class="difficulties-slider__box-text">4 часа</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Бригада:</h5>
+                    <p class="difficulties-slider__box-text">1 человека</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title"></h5>
+                    <p class="difficulties-slider__box-text"></p>
+                  </li>
+                </ul>
+                <p class="difficulties-slider__text">Стоимость: 3 456 ₴</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="difficulties-slider__item">
+            <div class="difficulties-slider__box">
+              <img class="difficulties-slider__img" src="images/difficulties/difficulties.jpg" alt="images">
+              <div class="difficulties-slider__box-content">
+                <h5 class="difficulties-slider__title">Объект: однокомнатная квартира</h5>
+                <ul class="difficulties-slider__box-list">
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Пакет:</h5>
+                    <p class="difficulties-slider__box-text">Генеральная уборка</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Площадь:</h5>
+                    <p class="difficulties-slider__box-text">32 м2</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Сложные загрязнения:</h5>
+                    <p class="difficulties-slider__box-text">ржавчина, сильный <br> налёт на ванне</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Время работы:</h5>
+                    <p class="difficulties-slider__box-text">4 часа</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title">Бригада:</h5>
+                    <p class="difficulties-slider__box-text">1 человека</p>
+                  </li>
+                  <li class="difficulties-slider__box-item">
+                    <h5 class="difficulties-slider__box-title"></h5>
+                    <p class="difficulties-slider__box-text"></p>
+                  </li>
+                </ul>
+                <p class="difficulties-slider__text">Стоимость: 3 456 ₴</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="photo-calculation">
+      <div class="container">
+
+        <div class="photo-calculation__inner">
+          <h2 class="photo-calculation__title title">Моментальный Рассчёт стоимости по фотографии</h2>
+          <p class="photo-calculation__text text">Пришлите фото в мессенджере, чтобы рассчитать стоимость, быстро заказать уборку или задать нам вопрос</p>
+  
+          <form class="photo-calculation__form">
+            <h5 class="photo-calculation__form-title">Кликните на удобный способ связи и напишите нам:</h5>
+            <input class="photo-calculation__input-telegram" type="text" placeholder="telegram">
+            <input class="photo-calculation__input-whatsapp" type="text" placeholder="whatsapp">
+            <p class="photo-calculation__form-text">Скорость ответа 60 секунд</p>
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="inventory">
+      <div class="container">
+        <h2 class="inventory__title title">Что входит в инвентарь нашего клинера</h2>
+        <p class="inventory__text text">Инструменты, с помощью которых <br> создаём уют в вашем доме</p>
+
+        <div class="inventory__inner">
+
+          <div class="inventory__item inventory__item-box">
+            <div class="inventory__box">
+              <img class="inventory__img" src="images/inventory/inventory-1.png" alt="images">
+              <h4 class="inventory__box-title">5 видов моющих средств</h4>
+              <p class="inventory__box-text">подходят для всех <br> типов поверхностей, <br> от паркета до кафеля</p>
+            </div>
+            <div class="inventory__box">
+              <img class="inventory__img" src="images/inventory/inventory-2.png" alt="images">
+              <h4 class="inventory__box-title">Маски и перчатки</h4>
+              <p class="inventory__box-text">Соблюдаем <br> меры санитарной <br> безопасности</p>
+            </div>
+          </div>
+
+          <div class="inventory__item inventory__item-img">
+            <img class="inventory__img-box" src="images/inventory/inventory-5.png" alt="images">
+            <div class="inventory__box-item">
+              <form class="inventory__form">
+                <input class="inventory__input" type="text" placeholder="Введите ваш телефон">
+                <button class="inventory__btn" type="submit">Заказать уборку</button>
+                <label class="inventory__label">
+                  <input class="calculator__checkbox" type="checkbox">
+                  <span class="calculator__checkbox-style"></span>
+                  Нажимая на кнопку вы соглашаетесь <br> с условиями <ins>Политики конфиденциальности</ins>
+                </label>
+              </form>
+            </div>
+          </div>
+
+          <div class="inventory__item inventory__item-box">
+            <div class="inventory__box">
+              <img class="inventory__img" src="images/inventory/inventory-3.png" alt="images">
+              <h4 class="inventory__box-title">8 видов оборудования</h4>
+              <p class="inventory__box-text">Профессиональная техника для создания чистоты на уровне блеска</p>
+            </div>
+            <div class="inventory__box">
+              <img class="inventory__img" src="images/inventory/inventory-4.png" alt="images">
+              <h4 class="inventory__box-title">Швабры и салфетки</h4>
+              <p class="inventory__box-text">Из различной ткани, для эффективной уборки всех типов поверхностей</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="present">
+      <div class="container">
+        <h2 class="present__title title">Выберите подарок и закажите бережную уборку, <span>без наценок и скрытых платежей</span></h2>        
+          
+        <div class="present__box">
+          <img class="present__img" src="images/present/discount.svg" alt="discount icon">
+          <div class="present__item">
+            <h5 class="present__item-title">Скидка 10% при первом заказе</h5>
+            <p class="present__item-text">Действует на все пакеты услуг</p>
+            <a class="present__item-link" href="#">Получить подарок</a>
+          </div>
+        </div>
+
+        <div class="present__box">
+          <img class="present__img" src="images/present/plate.svg" alt="plate icon">
+          <div class="present__item">
+            <h5 class="present__item-title">Бесплатная мойка плиты</h5>
+            <p class="present__item-text">При заказе в дневное время суток</p>
+            <a class="present__item-link" href="#">Получить подарок</a>
+          </div>
+        </div>
+
+        <div class="present__box">
+          <img class="present__img" src="images/present/window.svg" alt="window icon">
+          <div class="present__item">
+            <h5 class="present__item-title">Мойка 2 окон бесплатно</h5>
+            <p class="present__item-text">При заказе уборки после ремонта</p>
+            <a class="present__item-link" href="#">Получить подарок</a>
+          </div>
+        </div>      
+
+      </div>
+    </section>
+
+    <section class="certificates">
+      <div class="container">
+        <h2 class="certificates__title title">Сертификаты</h2>
+        <p class="certificates__text text">Моющий средства от проверенных производителей</p>
+
+        <div class="certificates__inner">
+
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-1.png" alt="certificates-1">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-2.png" alt="certificates-2">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-3.png" alt="certificates-3">
+          </div>
+          
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-1.png" alt="certificates-1">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-2.png" alt="certificates-2">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-3.png" alt="certificates-3">
+          </div>
+          
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-1.png" alt="certificates-1">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-2.png" alt="certificates-2">
+          </div>
+
+          <div class="certificates__item">
+            <img class="certificates__item-img" src="images/certificates/certificates-3.png" alt="certificates-3">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cleaning-now">
+      <div class="container">
+        <div class="cleaning-now__inner">
+          <h4 class="cleaning-now__title">Закажите уборку прямо сейчас! <span>Выезд персонала в течении часа</span></h4>
+
+          <form class="cleaning-now__form">
+            <button class="cleaning-now__btn" type="submit">Заказать уборку</button>
+            <p class="cleaning-now__form-text">Или свяжитесь с нами напрямую:</p>
+            <input class="cleaning-now__input-telegram" type="text" placeholder="telegram">
+            <input class="cleaning-now__input-whatsapp" type="text" placeholder="whatsapp">
+          </form>
+  
+          <div class="cleaning-now__phone">
+            <a class="cleaning-now__phone-number" href="tel:80508543543">8-050-8-543-543</a>
+            <p class="cleaning-now__phone-text">Пн-Вс: 9:00 - 21:00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions">
+      <div class="container">
+        <h2 class="questions__title title">Часто задаваемые вопросы</h2>
+
+        <div class="questions__items">
+          <div class="questions__item">
+            <h4 class="questions__item-title">
+              Какие услуги оказывает компания Soft Clean?
+            </h4>
+            <div class="questions__item-text">
+              <p class="questions__item-answer">
+                Компания Soft Clean предоставляет полный спектр услуг. В перечень входит генеральная и поддерживающая уборка, мытьё окон, клининг после ремонта, химчистка мягкой мебели, напольных покрытий и целый ряд дополнительных услуг. Более точный список представлен на сайте. Мы работаем с частными и юридическими лицами, поэтому Вы можете заказать уборку квартир, домов, коттеджей, коммерческих помещений, офисов и прочих типов нежилых помещений.
+              </p>
+            </div>
+          </div>
+          <div class="questions__item">
+            <h4 class="questions__item-title">
+              Когда нужно оплачивать уборку, до или после окончания работ?
+            </h4>
+            <div class="questions__item-text">
+              <p class="questions__item-answer">
+                Вы оплачиваете наши услуги только после приёма выполненной работы, после полного завершения уборки.
+              </p>
+            </div>
+          </div>
+          <div class="questions__item">
+            <h4 class="questions__item-title">
+              Сколько клинеров будут проводить уборку?
+            </h4>
+            <div class="questions__item-text">
+              <p class="questions__item-answer">
+                Количество клинеров зависит от размера помещения, степени загрязнения объекта и срочности уборки. В среднем на 70 квадратных метров - 3 клинера.
+              </p>
+            </div>
+          </div>
+          <div class="questions__item">
+            <h4 class="questions__item-title">
+              Что делать, если уборка выполнена не качественно?
+            </h4>
+            <div class="questions__item-text">
+              <p class="questions__item-answer">
+                Наши клинеры всегда максимально качественно выполняют работу, но если Вы обнаружили какие-либо недочёты или недоработки, свяжитесь с менеджером и сообщите ему о ситуации. Мы бесплатно устраним недочёты в течении 24-х часов.
+              </p>
+            </div>
+          </div>
+          <div class="questions__item">
+            <h4 class="questions__item-title">
+              Какие моющие средства вы используете?
+            </h4>
+            <div class="questions__item-text">
+              <p class="questions__item-answer">
+                Уборку клинеры проводят с применением специализированного профессионального оборудования и экологически безопасных чистящих средств. Средства для чистки и мойки не оказывают негативного влияния на аллергиков и растения. Ими можно обрабатывать даже комнаты детей.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <div class="header__logo">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo/logo.svg" alt="logo">
+          </a>
+          <div class="header__logo-desc">
+            <h5 class="header__logo-title">Soft Clean</h5>
+            <p class="header__logo-text">Бережная уборка помещений Киев</p>
+          </div>
+        </div>
+        <div class="footer__box-item">
+          <p class="footer__box-text">Реквизиты</p>
+        </div>
+        <div class="footer__box-item">
+          <p class="footer__box-text">Политика конфиденциальности</p>
+        </div>
+        <div class="footer__social">
+          <p class="footer__social-text">Быстрая связь:</p>
+          <a class="footer__social-link" href="#">
+            <img class="footer__social-img" src="images/icon/telegram.svg" alt="telegram icon">
+          </a>
+          <a class="header__social-link" href="#">
+            <img class="footer__social-img" src="images/icon/whatsapp.svg" alt="whatsapp icon">
+          </a>
+        </div>
+        <div class="footer__box-item">
+          <p class="footer__box-text">Разработка сайта: Halekov Design</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
